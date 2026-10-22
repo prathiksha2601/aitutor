@@ -1,0 +1,68 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+env/
+venv/
+.venv/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+
+# === Node / Frontend ===
+node_modules/
+dist/
+.cache/
+*.local
+
+# === Environment files ===
+.env
+.env.local
+.env.production
+backend/.env
+frontend/.env
+
+# === ML Artifacts ===
+ml/data/raw/
+ml/data/processed/
+ml/artifacts/*.keras
+ml/artifacts/*.h5
+ml/artifacts/*.pb
+ml/artifacts/training_history.json
+ml/artifacts/evaluation_results.json
+# Keep labels.json if you want to commit it
+# ml/artifacts/labels.json
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+*.log
+logs/
+
+# === MongoDB ===
+mongod.lock
+
+# === Security ===
+*.pem
+*.key
+*.crt
+secrets/
